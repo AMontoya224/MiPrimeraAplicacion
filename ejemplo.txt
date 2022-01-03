@@ -9,5 +9,21 @@ rm NombreDelArchivo.extension - elimina el archivo seleccionado
 git init - inicializa una carpeta como un repositorio localmente
 git add NombreArchivo git add .
 got commit -m "Mensaje para el commit"
-git remote add url-del-github
+git config --global user.email "you@example.com"
+git remote add url-del-github - git remote add origin https://github.com/AMontoya224/MiPrimeraAplicacion.git
 git push -u origin master - sube archivo;  git push -u origin main (token) - solo la primera vez
+
+pasos (primera vez):
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AMontoya224/MiPrimeraAplicacion.git
+git push -u origin main
+
+pasos(subir mas archivos):
+git add archivo.extension
+git commit -m "comentar..."
+git push -u origin master
+
+git status 
