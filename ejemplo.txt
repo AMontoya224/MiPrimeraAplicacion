@@ -1,0 +1,13 @@
+ls - muestra las carpetas y archivos en laterminal
+pwd - muestra tu ubicacion actual
+cd "Nombre de la carpeta" - para anvegar internamente de la carpeta
+cd.. - regresa a una carpeta anterior
+mkdir "Nombre de la carpeta" - crea una carpeta
+touch NombreDelArchivo.extension - crea un archivo dentro de la carpeta actual
+rm NombreDelArchivo.extension - elimina el archivo seleccionado
+
+git init - inicializa una carpeta como un repositorio localmente
+git add NombreArchivo git add .
+got commit -m "Mensaje para el commit"
+git remote add url-del-github
+git push -u origin master - sube archivo;  git push -u origin main (token) - solo la primera vez
